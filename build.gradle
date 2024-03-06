@@ -23,10 +23,11 @@ allprojects() {
 
   repositories() {
     mavenCentral()
+    mavenLocal()
 
     maven() {
-      setName("elytrium-repo")
-      setUrl("https://maven.elytrium.net/repo/")
+      setName("mincats-mirrors")
+      setUrl("https://repo.mincats.eu/mirrors")
     }
     maven() {
       setName("papermc-repo")
